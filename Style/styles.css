@@ -93,6 +93,7 @@ main > section{
 }
 .banner-image{
   width: 100%;
+  margin-bottom: 45px;
 }
 /* team and feature related styles */
 
@@ -220,7 +221,7 @@ max-width: 1440px;
 @media screen and (max-width:576px) {
   .navbar, 
   .nav-link, 
-  .teams,a
+  .teams,
   .features{
     flex-direction: column;
   }
@@ -232,6 +233,9 @@ max-width: 1440px;
 .our-features{
   margin-left:20px ;
 
+}
+.features-architect img{
+  width:100%;
 }
 .facts-container{
   justify-items: center;
